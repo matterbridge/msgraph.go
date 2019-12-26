@@ -3,7 +3,8 @@
 package msgraph
 
 // ChatMessageType undocumented
-type ChatMessageType int
+type ChatMessageType string
+/*
 
 const (
 	// ChatMessageTypeVMessage undocumented
@@ -31,3 +32,4 @@ func ChatMessageTypePTyping() *ChatMessageType {
 	v := ChatMessageTypeVTyping
 	return &v
 }
+*/

@@ -3,7 +3,9 @@
 package msgraph
 
 // ChatMessageImportance undocumented
-type ChatMessageImportance int
+type ChatMessageImportance string
+
+/*
 
 const (
 	// ChatMessageImportanceVNormal undocumented
@@ -31,3 +33,4 @@ func ChatMessageImportancePUrgent() *ChatMessageImportance {
 	v := ChatMessageImportanceVUrgent
 	return &v
 }
+*/

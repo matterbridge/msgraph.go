@@ -3,7 +3,9 @@
 package msgraph
 
 // BodyType undocumented
-type BodyType int
+type BodyType string
+
+/*
 
 const (
 	// BodyTypeVText undocumented
@@ -23,3 +25,4 @@ func BodyTypePHTML() *BodyType {
 	v := BodyTypeVHTML
 	return &v
 }
+*/
