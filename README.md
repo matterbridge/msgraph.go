@@ -4,9 +4,9 @@
 
 |v1.0|beta|
 |---|---|
-|[![GoDoc](https://godoc.org/github.com/yaegashi/msgraph.go/v1.0?status.svg)](https://godoc.org/github.com/yaegashi/msgraph.go/v1.0)|[![GoDoc](https://godoc.org/github.com/yaegashi/msgraph.go/beta?status.svg)](https://godoc.org/github.com/yaegashi/msgraph.go/beta)|
+|[![GoDoc](https://godoc.org/github.com/matterbridge/msgraph.go/v1.0?status.svg)](https://godoc.org/github.com/matterbridge/msgraph.go/v1.0)|[![GoDoc](https://godoc.org/github.com/matterbridge/msgraph.go/beta?status.svg)](https://godoc.org/github.com/matterbridge/msgraph.go/beta)|
 
-[![](https://github.com/yaegashi/msgraph.go/workflows/go%20generate%20test/badge.svg?branch=master)](https://github.com/yaegashi/msgraph.go/actions)
+[![](https://github.com/matterbridge/msgraph.go/workflows/go%20generate%20test/badge.svg?branch=master)](https://github.com/matterbridge/msgraph.go/actions)
 
 ## Introduction 
 
@@ -26,19 +26,19 @@ heavily relying on C# and non-portable .NET Framework.
   - [#1][PR1] every request method should take a ctx for the first arg
   - [#2][PR2] package auth renamed to msauth and API changed
 
-[PR1]: https://github.com/yaegashi/msgraph.go/pull/1
-[PR2]: https://github.com/yaegashi/msgraph.go/pull/2
+[PR1]: https://github.com/matterbridge/msgraph.go/pull/1
+[PR2]: https://github.com/matterbridge/msgraph.go/pull/2
 
 ## Usage
 
 You can choose API version when importing `msgraph` package:
 
 ```go
-import msgraph "github.com/yaegashi/msgraph.go/v1.0"
+import msgraph "github.com/matterbridge/msgraph.go/v1.0"
 ```
 
 ```go
-import msgraph "github.com/yaegashi/msgraph.go/beta"
+import msgraph "github.com/matterbridge/msgraph.go/beta"
 ```
 
 You could benefit from better IDE assisted coding experience

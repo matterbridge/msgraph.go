@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/yaegashi/msgraph.go/jsonx"
+	"github.com/matterbridge/msgraph.go/jsonx"
 )
 
 // InformationProtectionPolicyRequestBuilder is request builder for InformationProtectionPolicy

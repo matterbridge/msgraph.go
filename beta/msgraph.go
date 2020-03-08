@@ -13,7 +13,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/yaegashi/msgraph.go/jsonx"
+	"github.com/matterbridge/msgraph.go/jsonx"
 )
 
 const (

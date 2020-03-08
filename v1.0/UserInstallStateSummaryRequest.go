@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/yaegashi/msgraph.go/jsonx"
+	"github.com/matterbridge/msgraph.go/jsonx"
 )
 
 // UserInstallStateSummaryRequestBuilder is request builder for UserInstallStateSummary
